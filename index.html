@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZhiTie Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 40px 20px; color: #333; line-height: 1.6; }
+  h1 { color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 10px; }
+  h2 { color: #333; margin-top: 30px; }
+  .last-updated { color: #666; font-style: italic; }
+  a { color: #1a73e8; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy for ZhiTie (智贴)</h1>
+<p class="last-updated">Last updated: April 26, 2026</p>
+
+<p>This privacy policy describes how ZhiTie ("we", "our", "the App") handles your data. We are committed to protecting your privacy.</p>
+
+<h2>1. Overview</h2>
+<p>ZhiTie is a smart clipboard text extraction tool that automatically detects and extracts useful information from copied text, such as phone numbers, email addresses, URLs, physical addresses, OTP verification codes, and tracking numbers.</p>
+
+<h2>2. Data We Collect</h2>
+<p><strong>ZhiTie does NOT collect, transmit, or share any personal data with us or any third-party analytics services.</strong></p>
+<ul>
+  <li><strong>Clipboard text</strong>: Processed locally on your device only. Text is never sent to any server unless you explicitly configure an AI cloud provider.</li>
+  <li><strong>Extraction results</strong>: Stored locally in the app's private database on your device.</li>
+  <li><strong>AI API Key</strong>: If you choose to use AI cloud extraction, your API key is stored locally on your device and sent only to the AI provider you configured.</li>
+</ul>
+
+<h2>3. How Data Is Processed</h2>
+<h3>3.1 On-Device Extraction (Default)</h3>
+<p>By default, ZhiTie uses Google ML Kit and local regex patterns to extract information. All processing happens <strong>entirely on your device</strong>. No data is sent to any server.</p>
+
+<h3>3.2 AI Cloud Extraction (Optional)</h3>
+<p>If you choose to enable AI cloud extraction, the text you input or copy will be sent to the AI provider you configured (e.g., DeepSeek, OpenAI, Claude, Gemini, etc.) for processing. This is an optional feature that you must explicitly enable and configure.</p>
+<p><strong>Important:</strong> When AI cloud extraction is enabled, your text data is sent directly from your device to your chosen AI provider. We do not intercept, store, or have access to this data.</p>
+
+<h2>4. Data Storage</h2>
+<ul>
+  <li>All extraction records are stored in a local SQLite database on your device.</li>
+  <li>Data never leaves your device unless you use AI cloud extraction.</li>
+  <li>You can delete all records at any time using the "Clear" function in the app.</li>
+  <li>Uninstalling the app removes all stored data.</li>
+</ul>
+
+<h2>5. Third-Party Services</h2>
+<h3>5.1 Google ML Kit</h3>
+<p>ZhiTie uses Google ML Kit Entity Extraction and Text Recognition for on-device text processing. ML Kit processes data locally on your device. For more information, see <a href="https://developers.google.com/ml-kit/terms" target="_blank">Google ML Kit Terms of Service</a>.</p>
+
+<h3>5.2 AI Providers (Optional)</h3>
+<p>If you configure an AI provider, text is sent directly to that provider's API. Each provider has their own privacy policy:</p>
+<ul>
+  <li><a href="https://www.deepseek.com/privacy" target="_blank">DeepSeek Privacy Policy</a></li>
+  <li><a href="https://openai.com/privacy" target="_blank">OpenAI Privacy Policy</a></li>
+  <li><a href="https://www.anthropic.com/privacy" target="_blank">Claude (Anthropic) Privacy Policy</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank">Google Gemini Privacy Policy</a></li>
+</ul>
+
+<h2>6. Permissions</h2>
+<p>ZhiTie requests the following permissions:</p>
+<ul>
+  <li><strong>Read Clipboard</strong>: To detect when you copy text and extract information from it.</li>
+  <li><strong>Foreground Service</strong>: To keep the clipboard monitoring running in the background.</li>
+  <li><strong>Post Notifications</strong>: To notify you when verification codes (OTP) are extracted.</li>
+  <li><strong>Boot Completed</strong>: To start clipboard monitoring when your device restarts.</li>
+  <li><strong>Internet</strong>: For AI cloud extraction (optional feature).</li>
+</ul>
+
+<h2>7. Children's Privacy</h2>
+<p>ZhiTie is not intended for children under 13. We do not knowingly collect data from children.</p>
+
+<h2>8. Your Rights</h2>
+<ul>
+  <li>You can clear all stored data at any time from within the app.</li>
+  <li>You can disable clipboard monitoring at any time by stopping the service.</li>
+  <li>You can choose not to use AI cloud extraction.</li>
+  <li>Uninstalling the app removes all local data.</li>
+</ul>
+
+<h2>9. Data Security</h2>
+<p>We take reasonable measures to protect your data. All local data is stored in the app's private storage, which is protected by Android's security model. API keys are stored locally and are not accessible to other apps.</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated date.</p>
+
+<h2>11. Contact Us</h2>
+<p>If you have questions about this privacy policy, please contact us at:<br>
+Email: <a href="mailto:zhitie.app@gmail.com">zhitie.app@gmail.com</a></p>
+
+</body>
+</html>
